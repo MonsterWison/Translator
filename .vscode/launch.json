@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Translator}/TranslatorApp",
+            "name": "Debug TranslatorApp (TranslatorApp)",
+            "program": "${workspaceFolder:Translator}/TranslatorApp/.build/debug/TranslatorApp",
+            "preLaunchTask": "swift: Build Debug TranslatorApp (TranslatorApp)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Translator}/TranslatorApp",
+            "name": "Release TranslatorApp (TranslatorApp)",
+            "program": "${workspaceFolder:Translator}/TranslatorApp/.build/release/TranslatorApp",
+            "preLaunchTask": "swift: Build Release TranslatorApp (TranslatorApp)"
+        }
+    ]
+}
